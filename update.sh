@@ -95,8 +95,8 @@ echo "............................................"
 
 clear
 
-echo"       Successfully Installed all packages"
-echo""
+echo "      Successfully Installed all packages"
+echo ""
 echo "     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "      This script writed by Shoeb Sheikh "
 echo "        please like and subscribe (FOCS)"
