@@ -14,20 +14,31 @@ echo "......................................."
 echo "....................................."
 
 echo  "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-echo   " its taking upto 1 to 2 minutes"
-echo   " take a long breath & relax for "
+echo   " its taking upto 3 to 5 minutes"
+echo   " take a long breath & relax     "
+echo   " only useful package are install"
 echo   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
 echo "......................................."
 echo "....................................."
+echo "......................................."
+echo "....................................."
+echo "......................................."
+echo "....................................."
 
+
+termux-setup-storage
 apt update && apt upgrade
+pkg install openssh
+pkg install openssl
 pkg install sl
-pkg install 
+pkg install zip
+pkg install unzip
+pkg install perl
 pkg update && pkg upgrade
-apt install python && apt install python2 
+apt install python && apt install python2 && apt install python3
 apt install ruby 
-apt install git
+apt install curl
 pkg install fish 
 apt install nano
 clear
@@ -45,8 +56,46 @@ echo ""
 echo  "& termux application"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
+echo "......................................."
+echo "...................................."
+echo ".................................."
+echo "................................"
+echo ".............................."
+echo "............................"
+echo ".........................."
+echo "........................"
+echo "......................"
+echo "...................."
+echo ".................."
+echo "................"
+echo ".............."
+echo "............."
+echo "..........."
+echo "........."
+echo "........."
+echo "..........."
+echo "............."
+echo "..............."
+echo "................."
+echo "..................."
+echo "....................."
+echo "......................."
+echo "........................."
+echo "..........................."
+echo "............................."
+echo "..............................."
+echo "................................."
+echo "..................................."
+echo "....................................."
+echo "......................................."
+echo "........................................"
+echo "........................................."
+echo "..........................................."
+echo "............................................"
 
-echo""
+clear
+
+echo"       Successfully Installed all packages"
 echo""
 echo "     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "      This script writed by Shoeb Sheikh "
@@ -58,3 +107,4 @@ echo ""
 echo "           Thank You for use script    "
 figlet lets Start
 
+fish
