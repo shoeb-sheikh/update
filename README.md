@@ -13,3 +13,22 @@ cd update
 # then Run it by giving command
 
 bash update.sh
+
+#this script can update those packages
+List👇🏻👇🏻👇🏻
+
+
+termux-setup-storage
+apt update && apt upgrade
+openssh
+openssl
+sl
+zip
+unzip
+perl
+pkg update && pkg upgrade
+python && python2 && python3
+ruby 
+curl
+fish 
+nano
